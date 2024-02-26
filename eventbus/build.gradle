@@ -2,12 +2,11 @@ apply plugin: 'com.android.library'
 
 android {
     namespace "ru.ytkab0bp.eventbus"
-
-    compileSdkVersion 33
+    compileSdk 34
 
     defaultConfig {
         minSdkVersion 19
-        targetSdkVersion 33
+        targetSdkVersion 34
         versionCode 1
         versionName "1.0"
 
